@@ -638,3 +638,5 @@ E:\5\Pemrograman Front End\SourceCode\UTS\obj\Debug\net5.0\RazorDeclaration\Page
 E:\5\Pemrograman Front End\SourceCode\UTS\obj\Debug\net5.0\Razor\Pages\EmployeePage.razor.g.cs
 E:\5\Pemrograman Front End\SourceCode\UTS\obj\Debug\net5.0\RazorDeclaration\Pages\DetailEmployeePage.razor.g.cs
 E:\5\Pemrograman Front End\SourceCode\UTS\obj\Debug\net5.0\Razor\Pages\DetailEmployeePage.razor.g.cs
+E:\5\Pemrograman Front End\SourceCode\UTS\obj\Debug\net5.0\RazorDeclaration\Pages\EditEmployee.razor.g.cs
+E:\5\Pemrograman Front End\SourceCode\UTS\obj\Debug\net5.0\Razor\Pages\EditEmployee.razor.g.cs

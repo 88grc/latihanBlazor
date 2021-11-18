@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Text.Json;
 using System.Threading.Tasks;
 using UTS.Models;
 
@@ -25,6 +26,14 @@ namespace UTS.Services
         {
             var results = await _httpClient.GetFromJsonAsync<IEnumerable<Employee>>("api/Employees");
             return results;
+        }
+        public async Task<Employee> Update(int id, Employee employee){
+            var response = await _httpClient.PutAsJsonAsync($"api/Employees/{id}", employee);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }else{
+                throw new Exception("Gagal update Employee");
+            }
         }
     }
 }

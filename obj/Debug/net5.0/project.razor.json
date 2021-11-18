@@ -147,6 +147,59 @@
         }
       },
       {
+        "HashCode": 94115312,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.EditEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.EditEmployee"
+        }
+      },
+      {
+        "HashCode": 562341661,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.EditEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Pages.EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.EditEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 2080686347,
         "Kind": "Components.Component",
         "Name": "UTS.Pages.EmployeePage",
@@ -13198,6 +13251,11 @@
     {
       "FilePath": "e:\\5\\Pemrograman Front End\\SourceCode\\UTS\\Pages\\DetailEmployeePage.razor",
       "TargetPath": "Pages\\DetailEmployeePage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\5\\Pemrograman Front End\\SourceCode\\UTS\\Pages\\EditEmployee.razor",
+      "TargetPath": "Pages\\EditEmployee.razor",
       "FileKind": "component"
     },
     {

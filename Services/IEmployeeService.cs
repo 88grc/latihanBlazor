@@ -10,5 +10,6 @@ namespace UTS.Services
     {
         Task<IEnumerable<Employee>> GetEmployees();//ngambil data semua employee
         Task<Employee> GetEmployee(int id); //ambil data salah satu employee
+        Task<Employee> Update(int id, Employee employee);
     }
 }
