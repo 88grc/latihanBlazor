@@ -34,7 +34,7 @@ namespace UTS.Pages
         }
         protected override async Task OnInitializedAsync(){
             id = id ?? "1";
-            Employee = await EmployeeService.GetEmployee(Convert.ToInt32(id));
+            Employee = await EmployeeService.GetById(Convert.ToInt32(id));
         }
     }
 }

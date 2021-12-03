@@ -8,6 +8,59 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1142918354,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.AddEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.AddEmployee"
+        }
+      },
+      {
+        "HashCode": -1871338100,
+        "Kind": "Components.Component",
+        "Name": "UTS.Pages.AddEmployee",
+        "AssemblyName": "UTS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UTS.Pages.AddEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UTS.Pages.AddEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1491421309,
         "Kind": "Components.Component",
         "Name": "UTS.Pages.DepartmentPage",
@@ -13242,6 +13295,11 @@
       "FilePath": "e:\\5\\Pemrograman Front End\\SourceCode\\UTS\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "e:\\5\\Pemrograman Front End\\SourceCode\\UTS\\Pages\\AddEmployee.razor",
+      "TargetPath": "Pages\\AddEmployee.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "e:\\5\\Pemrograman Front End\\SourceCode\\UTS\\Pages\\Index.razor",

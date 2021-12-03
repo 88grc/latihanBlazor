@@ -8,8 +8,9 @@ namespace UTS.Services
 {
     public interface IEmployeeService
     {
-        Task<IEnumerable<Employee>> GetEmployees();//ngambil data semua employee
-        Task<Employee> GetEmployee(int id); //ambil data salah satu employee
+        Task<IEnumerable<Employee>> GetAll();//ngambil data semua employee
+        Task<Employee> GetById(int id); //ambil data salah satu employee
         Task<Employee> Update(int id, Employee employee);
+        Task<Employee> Add(Employee Employee);
     }
 }

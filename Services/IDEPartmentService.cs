@@ -10,5 +10,6 @@ namespace UTS.Services
     {
         Task<IEnumerable<Department>> GetAll(); //mengambil semua data department
         Task<Department> GetById(int id); //mengambil 1 data aja
+        
     }
 }

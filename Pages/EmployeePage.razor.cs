@@ -15,7 +15,7 @@ namespace UTS.Pages
         public IEmployeeService EmployeeService { get; set; }
         protected override async Task OnInitializedAsync()
         {
-            Employees = (await EmployeeService.GetEmployees()).ToList();
+            Employees = (await EmployeeService.GetAll()).ToList();
         }
     }
 }
